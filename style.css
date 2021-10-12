@@ -1,0 +1,110 @@
+body {
+    margin : 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width : 100%;
+    height : 7.5rem;
+    background-color: #4d4b4b;
+    z-index: 1;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #A69374;
+    color : white;
+    font-size: 2rem;
+}
+
+.header_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.header_item {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.4s linear 0s
+}
+
+.start_page{
+    color: #A69374
+}
+
+.header_item:hover{
+    color: #A69374;
+}
+
+
+.main_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    height : 50rem;
+    background: url(images/1_photo.jpg);
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.name{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.first_one {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.main_aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    height : 27.5rem;
+    background-color: #c7c3c3;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.about {
+    color: #4d4b4b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.line {
+    color :  white
+}
