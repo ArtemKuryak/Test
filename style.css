@@ -113,6 +113,7 @@ header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .main_aboutus p {
@@ -124,4 +125,136 @@ header {
     margin-top: 0;
     width: 40%;
     text-align: center;
+}
+
+.spheres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    height : 37.5rem;
+    background-color: white;
+}
+
+.spheres hr {
+    width: 5.4rem;
+    height: 5px;
+    color :  #A69374;
+    background : #A69374;
+    border: none;
+    transform:rotate(-45deg) ;
+}
+
+.spheres h1 {
+    color: #4d4b4b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bold;    
+    text-transform: uppercase;
+}
+
+.cubs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13.75rem;
+    height: 15rem;
+    background-color: #4d4b4b ;
+    margin: 1.25rem;
+}
+
+.business h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: bold;  
+    margin: 0;  
+}
+.business p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;    
+    margin: 0;
+}
+.comer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13.75rem;
+    height: 15rem;
+    background-color: #A69374;
+    margin: 1.25rem;
+}
+
+.comer h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: bold;  
+    margin: 0;  
+}
+.comer p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;    
+    margin: 0;
+}
+
+.devise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13.75rem;
+    height: 15rem;
+    background-color: #4d4b4b ;
+    margin: 1.25rem;
+}
+
+.devise h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: bold;  
+    margin: 0;  
+}
+.devise p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;    
+    margin: 0;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13.75rem;
+    height: 15rem;
+    background-color: #A69374;
+    margin: 1.25rem;
+}
+
+.family h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: bold;  
+    margin: 0;  
+}
+.family p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;    
+    margin: 0;
 }
